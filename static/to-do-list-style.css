@@ -1,0 +1,163 @@
+html {
+    font-family: Arial;
+}
+.body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.todoList {
+    background-color: white;
+    align-self: center;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    padding: 5%;
+}
+
+.heading {
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.main-heading {
+    font-size: 2em;
+}
+
+.textBox {
+    border-radius: 5px;
+    border-color: #f4f4f4;
+    border-width: 1px 1px 1px 1px;
+    margin-right: 2px;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enterName form, .assign form {
+    width: 100%;
+}
+
+.nameBox {
+    width: 85%;
+}
+
+.button {
+    transition: 0.3s;
+    color : white;
+    border: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.submitButton {
+    background-color: #007bff;
+    width : 10%;
+    font-size: 1em;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.teamDropDown {
+    width : 20%;
+    box-shadow: inset 0px 0px 4px;
+}
+
+.taskBox {
+    width: 35%;
+}
+
+.dateSelect {
+    width: 20%;
+}
+
+.sub-heading {
+    font-size: 1.17em;
+}
+
+.task {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    align-items: center;
+}
+
+.clearCompleted {
+    background-color: #64d05e;
+    font-size: 0.81em;
+}
+
+.clearCompleted:hover {
+    background-color: #4ea649;
+}
+
+.reset {
+    background-color: #c3c3c3;
+    font-size: 0.81em;
+}
+
+.reset:hover {
+    background-color: #8f8f8f;
+}
+
+.placeholderText {
+    color: gray;
+}
+
+.msgAlert {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.navlistitem {
+    float: left;
+  }
+
+.navlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.nonactive:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.active:hover {
+    background-color: #04aa6da7;
+}
